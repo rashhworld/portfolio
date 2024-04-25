@@ -43,7 +43,7 @@ footer i {
 }
 
 .banner {
-    background-image: url(assets/banner.webp);
+    background-image: url(/assets/banner.webp);
     background-size: cover;
     background-position: center;
     height: 65vh;

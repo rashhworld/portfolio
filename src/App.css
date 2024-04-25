@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none !important;
+    color: inherit;
+}
+
+nav,
+footer {
+    background: #000321;
+}
+
+nav i,
+footer i {
+    color: rgba(var(--bs-warning-rgb));
+}
+
+.navbar .navbar-nav {
+    gap: 20px;
+}
+
+.navbar .nav-link {
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.navbar button,
+.navbar button:active,
+.navbar button:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.container-main {
+    margin: 80px auto;
+}
+
+.banner {
+    background-image: url(assets/banner.webp);
+    background-size: cover;
+    background-position: center;
+    height: 65vh;
+    margin-top: 56px;
+}
+
+.banner .overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+section {
+    margin: 100px auto;
+}
+
+section h2 {
+    background: #000321;
+    clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+    padding: 10px;
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+}
+
+footer p,
+footer ul li {
+    line-height: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar .navbar-nav {
+        gap: 5px;
+    }
+
+    section h2 {
+        width: 70%;
+    }
+}
